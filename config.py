@@ -17,7 +17,8 @@ class Configuration:
         self.total_map_len_m = (self.total_map_len_m_x, self.total_map_len_m_y)
         # self.lg_num_cells = 420  # max:400 due to img border margins
         # self.lg_num_cells = 100  # max:400 due to img border margins
-        self.lg_num_cells = 300  # max:400 due to img border margins
+        # self.lg_num_cells = 300  # max:400 due to img border margins
+        self.lg_num_cells = 128  # max:400 due to img border margins
         self.lg_cell_size_m = self.total_map_len_m_x / self.img_total_x_pix
         self.lg_length_in_m = self.lg_num_cells * self.lg_cell_size_m
         # self.agent_start_pos = (-9, 13)
